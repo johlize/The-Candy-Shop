@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.page {
+	width:80%;
+	margin:auto;
+}
+
+.upper-menu {
+    overflow: hidden;
+    background-color: white;
+    font-family: Cambria;
+}
+
+.upper-menu a {
+    float: right;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+.upper-menu a:hover {
+    background-color: #d9486e;
+}
+
+.logo {
+   position:relative;
+   float:left;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: #a9d9cb;
+    font-family: Cambria;
+}
+
+.menu a {
+    float: left;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 50px 30px;
+	height: auto;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-family: Cambria;
+    font-size: 18px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 50px 30px;
+    background-color: inherit;
+}
+
+.menu a:hover, .dropdown:hover .dropbtn {
+    background-color: #d9486e;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ddd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #d9b036;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.border {
+	background-color:#d9b036;
+	height:2px;
+}
+
+.footer {
+    overflow: hidden;
+    background-color: #a9d9cb;
+    font-family: Cambria;
+    text-align: center;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-align: center;
+    padding: 0px 6px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    background-color: #d9486e;
+}
+
+.contents {
+	overflow:hidden;
+    background-color:white;
+    font-family:Cambria;
+	padding: 20px 20px;
+}
+
+body {
+    font-family:Cambria;
+	font-size:16px;
+	color:#333;
+	background-repeat:repeat;
+	background-image:url(confetti%20patterns.png);
+	
+}
+
+h1 {
+	color:#d9486e;
+	font-size:26px;
+	font-weight:bold;
+}
+
+h2 {
+	color:#a9d9cb;
+	font-size:16px;
+	font-weight:bold;
+}
+
+h3 {
+	font-size:25px;
+	color:white;
+}
+
+h4 {
+	color:#d9b036;
+	font-size:14px;
+	font-weight:bold;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	font-family: Cambria;
+	font-size:14px
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #d9486e;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 8px 4px;
+    cursor: pointer;
+	font-family:Cambria;
+	font-size: 14;
+}
