@@ -41,8 +41,8 @@
   <div class="dropdown">
     <button class="dropbtn">Chocolate</button>
     <div class="dropdown-content">
-      <a href="all-chocolate">View all chocolate</a>
-      <a href="chocolate-bars">Chocolate bars</a>
+      <a href="chocolate-all">View all chocolate</a>
+      <a href="chocolatebars.jsp">Chocolate bars</a>
       <a href="chocolate-dipped">Chocolate dipped</a>
       <a href="chocolate-boxes">Chocolate boxes</a>
       <a href="chocolate-wrapped">Individually wrapped</a>

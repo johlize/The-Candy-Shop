@@ -17,9 +17,9 @@
 <div class="page">
 
 <div class="upper-menu">
-   <a href="cart"><img src="includes/cart.png" height="20">(0)</a>
-   <a href="signup">Sign Up</a>
-   <a href="login">Log In</a>
+   <a href="cart.jsp"><img src="includes/cart.png" height="20">(0)</a>
+   <a href="signup.jsp">Sign Up</a>
+   <a href="login.jsp">Log In</a>
 </div>
 
 <div class="menu">
@@ -41,8 +41,8 @@
   <div class="dropdown">
     <button class="dropbtn">Chocolate</button>
     <div class="dropdown-content">
-      <a href="all-chocolate">View all chocolate</a>
-      <a href="chocolate-bars">Chocolate bars</a>
+      <a href="chocolate-all">View all chocolate</a>
+      <a href="chocolatebars.jsp">Chocolate bars</a>
       <a href="chocolate-dipped">Chocolate dipped</a>
       <a href="chocolate-boxes">Chocolate boxes</a>
       <a href="chocolate-wrapped">Individually wrapped</a>
@@ -51,8 +51,8 @@
   <div class="dropdown">
     <button class="dropbtn">About</button>
     <div class="dropdown-content">
-      <a href="contact">Contact Us</a>
-      <a href="faq">FAQ</a>
+      <a href="contact.jsp">Contact Us</a>
+      <a href="faq.jsp">FAQ</a>
     </div>
   </div>
 </div>
@@ -80,7 +80,7 @@ Praesent aliquet enim ante, vitae dignissim ex porttitor in. Ut sed accumsan urn
   <a href="http://instagram.com"><img src="includes/instagram.png" height="60"></a>
   <a href="http://vimeo.com"><img src="includes/vimeo.png" height="60"></a>
   <br><br>
-  <h3><a href="about">ABOUT US</a></h3>
+  <h3><a href="about.jsp">ABOUT US</a></h3>
   <h3>MAILING LIST</h3>
   <form action="MailingList"><input type="text" name="email" value="Email Address">
   <input type="submit" value="Submit"></form>
