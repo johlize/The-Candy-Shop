@@ -2,8 +2,8 @@
 /* CSS Document */
 
 .page {
-	width:80%;
-	margin:auto;
+    width:80%;
+    margin:auto;
 }
 
 .upper-menu {
@@ -26,8 +26,8 @@
 }
 
 .logo {
-   position:relative;
-   float:left;
+    position:relative;
+    float:left;
 }
 
 .menu {
@@ -42,7 +42,7 @@
     color: white;
     text-align: center;
     padding: 50px 30px;
-	height: auto;
+    height: auto;
     text-decoration: none;
 }
 
@@ -93,8 +93,8 @@
 }
 
 .border {
-	background-color:#d9b036;
-	height:2px;
+    background-color:#d9b036;
+    height:2px;
 }
 
 .footer {
@@ -116,52 +116,64 @@
     background-color: #d9486e;
 }
 
+.social {
+    overflow: hidden;
+    width: 100%;
+}
+
+.social img:hover {
+    background-color: #d9486e;
+}
+
+.social a:hover {
+    background-color: transparent;
+}
+
 .contents {
-	overflow:hidden;
+    overflow:hidden;
     background-color:white;
     font-family:Cambria;
-	padding: 20px 20px;
+    padding: 20px 50px;
 }
 
 body {
     font-family:Cambria;
-	font-size:16px;
-	color:#333;
-	background-repeat:repeat;
-	background-image:url(confetti%20patterns.png);
-	
+    font-size:16px;
+    color:#333;
+    background-repeat:repeat;
+    background-image:url(confetti%20patterns.png);
+
 }
 
 h1 {
-	color:#d9486e;
-	font-size:26px;
-	font-weight:bold;
+    color:#d9486e;
+    font-size:26px;
+    font-weight:bold;
 }
 
 h2 {
-	color:#a9d9cb;
-	font-size:16px;
-	font-weight:bold;
+    color:#a9d9cb;
+    font-size:20px;
+    font-weight:bold;
 }
 
 h3 {
-	font-size:25px;
-	color:white;
+    font-size:25px;
+    color:white;
 }
 
 h4 {
-	color:#d9b036;
-	font-size:14px;
-	font-weight:bold;
+    color:#d9b036;
+    font-size:16px;
+    font-weight:bold;
 }
 
-input[type=text] {
-    width: 30%;
+input[type=text], [type=password] {
     padding: 10px 15px;
     margin: 8px 0;
     box-sizing: border-box;
-	font-family: Cambria;
-	font-size:14px
+    font-family: Cambria;
+    font-size: 14px;
 }
 
 input[type=button], input[type=submit], input[type=reset] {
@@ -172,6 +184,6 @@ input[type=button], input[type=submit], input[type=reset] {
     text-decoration: none;
     margin: 8px 4px;
     cursor: pointer;
-	font-family:Cambria;
-	font-size: 14;
+    font-family: Cambria;
+    font-size: 14px;
 }
