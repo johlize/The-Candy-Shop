@@ -7,12 +7,11 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <jsp:useBean id="cart" scope="session" class="model.Cart"/>
 <jsp:useBean id="product" scope="session" class="model.Product"/>
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="includes/candyshop_css.css">
+<link rel="stylesheet" href="http://dev8.jhuep.com/~msatili1/includes/candyshop_css.css">
 <title>The Candy Shop</title>
 </head>
 <body>
@@ -20,14 +19,14 @@
 <div class="page">
 
 <div class="upper-menu">
-   <a href="cart.jsp"><img src="includes/cart.png" height="20">(<jsp:getProperty name="cart" property="quantity"/>)</a>
+   <a href="cart.jsp"><img src="http://dev8.jhuep.com/~msatili1/includes/cart.png" height="20">(<jsp:getProperty name="cart" property="quantity"/>)</a>
    <a href="signup.jsp">Sign Up</a>
    <a href="login.jsp">Log In</a>
 </div>
 
 <div class="menu">
 <div class="logo">
-  <img src="includes/candyshop_logo.png" height="125">
+  <img src="http://dev8.jhuep.com/~msatili1/includes/candyshop_logo.png" height="125">
 </div>
   <a href="index.jsp">Home</a>
   <div class="dropdown">
