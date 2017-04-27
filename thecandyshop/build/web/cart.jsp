@@ -32,7 +32,7 @@ You have <jsp:getProperty name="cart" property="quantity"/> items in your cart.
     </form></td>
     <td><form action="CartServlet" method="get">
         <input type="hidden" name="sourcePage" value="cart">
-        <input type="text" name="quantity" value="<%= 1 %>" size="2" maxlength="2" class="quantity""><br>
+        <input type="text" name="quantity" value="<%= 1 %>" size="2" maxlength="2" class="quantity"><br>
         <input type="submit" value="Update" class="cartButtons">
     </form></td>
     <td>$2.00</td>
@@ -68,7 +68,7 @@ You have <jsp:getProperty name="cart" property="quantity"/> items in your cart.
     <td>&nbsp;</td>
     <td><form action="CheckoutServlet" method="get">
     <input type="hidden" name="sourcePage" value="cart">
-    <input type="submit" value="Check Out">
+    <input type="submit" value="Checkout">
     </form></td>
 </table>
 
